@@ -23,32 +23,78 @@
         <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
         <!-- Already specified in the charset above-->
 
+        <style>
+            * {
+                box-sizing: border-box;
+                font-size:2vw;
+            }
+            
+            div {border: thin dotted red;}
+
+            .header {
+                border: 1px solid rgb(13, 80, 180);
+                padding: 15px;
+                font-size:4vw;
+            }
+
+            .menu { 
+                width: 25%;
+                float: left;
+                padding: 15px;
+                border: 1px solid rgb(45, 71, 110);
+        
+            }
+            .main { 
+                width: 50%;
+                float: left;
+                padding: 15px;
+                border: 1px solid rgb(45, 71, 110);
+            }
+            .aside {
+                width: 25%;
+                float: left;
+                padding: 15px;
+                border: 1px solid rgb(45, 71, 110);
+            }
+            .footer {
+                
+                padding: 15px;
+                border: 1px solid rgb(45, 71, 110);
+            }
+
+        </style>
+
         <noscript>Running JavaScript is not necessary in the HTML Page ... FYI: your Feature to execute scripts is turned off</noscript>
 
     </head>
     
     <body>
-        <header>Header</header>
-        <nav>Navigation</nav>
-        <aside>Aside</aside>
-        <main>Main</main>
-        <section>Section</section>
-        <article>Article</article>
-        <footer>Footer</footer>
+        <div>
+            <header class="header">
+                <h1 style="font-size:5vw">Flexbox</h1>
+                <a>And Styles in the HEAD</a>
+            </header>
+        </div>
+        <div><nav class="menu">Navigation</nav></div>
+        <div><main class="main">Main</main></div>
+        <div><aside class="aside">Aside</aside></div>
+        <div><section>Section</section></div>
+        <div><article>Article</article></div>
+        <div><footer></footer></div>
     </body>
 
-    <footer>
-        <blockquote cite="https://www.brainyquote.com/quotes/mitch_kapor_163583">
+    <div><footer>
+        <blockquote cite="https://www.google.com/search?q=quote+steve+jobs&rlz=1C1CHBF_enCA1024CA1024&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj36KqPg8f6AhXTGzQIHTHuBp0Q_AUoAXoECAIQAw&safe=active&ssui=on#imgrc=6wSENg14n1z8FM">
             <!-- Date Accessed 20220919 -->
         </blockquote>
         <p>
             <strong>
                 "Getting information off the Internet is like taking a drink from a firehose."
             </strong>
-            <em>- <a href="https://www.brainyquote.com/quotes/mitch_kapor_163583" target="_blank">
+            <em>- <a href="https://www.google.com/search?q=quote+steve+jobs&rlz=1C1CHBF_enCA1024CA1024&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj36KqPg8f6AhXTGzQIHTHuBp0Q_AUoAXoECAIQAw&safe=active&ssui=on#imgrc=6wSENg14n1z8FM" target="_blank">
                 Mitch Kapor</a>
             </em>
         </p>
-        <p>&copy omer younes, powered by MercersKitchen in GitHub</p>
-    </footer>
+        <p>&copy omery younes, powered by MercersKitchen in GitHub</p>
+    </footer></div>
 </html>
